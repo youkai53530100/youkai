@@ -5,98 +5,98 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港_0622027, server: 156.245.8.158, port: 43500, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_0622026, server: 156.245.8.130, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_0622032, server: 156.245.8.206, port: 49823, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0622008, server: jpnf.tangreny.com, port: 10037, type: vmess, uuid: 93d833a9-0202-42ee-8308-bedd946ec698, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: xn--gmq47msybdu2a, headers: {Host: jpnf.tangreny.com}}}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_007, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_0622005, server: jp1.669990.xyz, port: 80, type: vmess, uuid: eefddbfa-f02b-476a-ba63-76b64c5e872b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /KX9anGaj02iy6hnU, headers: {Host: jp1.669990.xyz}}}
-  - {name: 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 18, server: jp003.170203.xyz, port: 34522, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 12, server: jpmax03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: Relay_🇮🇱IL-🇯🇵JP_18 |49.55Mb, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
   - {name: 🇯🇵 日本_0622055, server: 109.166.36.193, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: JP_140.238.52.171_062120231035-258ss%%, server: 140.238.52.171, port: 18888, type: ss, cipher: aes-256-cfb, password: c97fce048}
-  - {name: 🇯🇵 _IL_以色列->🇯🇵_JP_日本 2, server: 149.50.71.164, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
-  - {name: 🇯🇵 日本_0622581, server: s2.zwtg888.com, port: 33453, type: vmess, uuid: 2100a1d2-773c-3a1d-b185-5686e0c79892, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: s2.zwtg888.com}}}
-  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28, server: jp001.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 14, server: jpmax05.170203.xyz, port: 56464, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本  11, server: jp04.170203.xyz, port: 43534, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 16, server: jp002.170203.xyz, port: 63608, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 日本_0622060, server: 45.88.43.230, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0622070, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 24, server: jp03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 15, server: jp06.170203.xyz, port: 56546, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇰🇷 24|🇰🇷 _KR_韩国_, server: kr03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: kr03.170203.xyz, skip-cert-verify: false}
+  - {name: "🇯🇵 6,8,24,26|_IL_以色列->🇯🇵_JP_日本 3", server: 149.50.71.155, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: JP_140.238.52.171_062120231035-258ss%%, server: 140.238.52.171, port: 18888, type: ss, cipher: aes-256-cfb, password: c97fce048}
+  - {name: 🇯🇵 日本_0622005, server: jp1.669990.xyz, port: 80, type: vmess, uuid: eefddbfa-f02b-476a-ba63-76b64c5e872b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /KX9anGaj02iy6hnU, headers: {Host: jp1.669990.xyz}}}
+  - {name: 🇯🇵 日本_0622060, server: 45.88.43.230, port: 46202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_0622008, server: jpnf.tangreny.com, port: 10037, type: vmess, uuid: 93d833a9-0202-42ee-8308-bedd946ec698, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: xn--gmq47msybdu2a, headers: {Host: jpnf.tangreny.com}}}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 39, server: jp03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 35, server: jp06.170203.xyz, port: 56546, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13, server: jpmax03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28, server: jpmax05.170203.xyz, port: 56464, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 38, server: jp001.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本  23, server: jp04.170203.xyz, port: 43534, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 12, server: jp003.170203.xyz, port: 34522, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇯🇵 JP(AzadNet.t.me)_007, server: awsjp14-data.amazon-azure.com, port: 443, type: trojan, password: 794d739c-89a0-444c-b2e7-acce12af3042, sni: data.amazon-azure.com, skip-cert-verify: true}
+  - {name: 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 29, server: jp002.170203.xyz, port: 63608, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: "%�\x11�%�P��� _JP%�\x16��本_1_5@%�", server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇯🇵 日本_0622010, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
   - {name: 🇰🇷 1|🇰🇷 _KR_韩国, server: kr01.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: kr01.170203.xyz, skip-cert-verify: false}
   - {name: 🇯🇵 日本_0622023, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0622096, server: 18.138.253.44, port: 23344, type: vmess, uuid: ebfcf2c4-9320-40ad-97fe-6264dc3e1bd0, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 6,8,24,26|_KR_韩国", server: kr03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: kr03.170203.xyz, skip-cert-verify: true}
+  - {name: 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 16, server: kr02.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国_0622003, server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@herhero6}}
+  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24, server: tw99-hinet.mynodes001.one, port: 445, type: vmess, uuid: 5f04de84-6b7e-3564-82c2-d2a998002629, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_0622032, server: 156.245.8.206, port: 49823, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_0622026, server: 156.245.8.130, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 github.com/freefq - 香港  18, server: 156.245.8.158, port: 43500, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_0622008, server: sg2.669990.xyz, port: 80, type: vmess, uuid: 92a408b4-1863-427f-8a75-537fd33ec516, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /DFZmOHc4HI6cWLADzLF, headers: {Host: sg2.669990.xyz}}}
-  - {name: 🇸🇬 新加坡_0622079, server: sg7.zingfast.vn, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn, headers: {Host: sg7.zingfast.vn}}}
+  - {name: 🇸🇬 新加坡_0622096, server: 18.138.253.44, port: 23344, type: vmess, uuid: ebfcf2c4-9320-40ad-97fe-6264dc3e1bd0, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_0622076, server: sg4.zingfast.vn, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn, headers: {Host: sg4.zingfast.vn}}}
   - {name: 🇸🇬 新加坡_0622075, server: 157.230.242.199, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn}}
   - {name: 🇸🇬 新加坡_0622083, server: sg1.zingfast.vn, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn, headers: {Host: sg1.zingfast.vn}}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24, server: tw99-hinet.mynodes001.one, port: 445, type: vmess, uuid: 5f04de84-6b7e-3564-82c2-d2a998002629, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 21, server: kr02.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇭🇰 20|🇭🇰 香港3|@ripaojiedian, server: hk2.yihaobao.xyz, port: 10022, type: trojan, password: 9572524a-0387-4d2a-88aa-b0ba911dbd69, sni: tls.yihaobao.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_0622079, server: sg7.zingfast.vn, port: 80, type: vmess, uuid: 533724ad-58ef-4147-88dc-9da523c15fc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /anti13.zingfast.vn, headers: {Host: sg7.zingfast.vn}}}
   - {name: 🇸🇬 20|🇸🇬 新加坡|@ripaojiedian, server: sgmax09.170203.xyz, port: 45356, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: sgmax09.170203.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 1|🇸🇬 _SG_新加坡 7, server: sg03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: sg03.170203.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_0622836, server: 92.223.116.203, port: 80, type: vmess, uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mrfiltering.ddns.net}}}
-  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1, server: sgmax06.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 7, server: sg05.170203.xyz, port: 34556, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3, server: sg11.170203.xyz, port: 43536, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 20, server: sg04.170203.xyz, port: 45364, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2, server: sgmax01.170203.xyz, port: 45356, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 19, server: sg03.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 15, server: sg11.170203.xyz, port: 43536, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 14, server: sgmax06.170203.xyz, port: 443, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1, server: sgmax01.170203.xyz, port: 45356, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 5, server: sg04.170203.xyz, port: 45364, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3, server: sg05.170203.xyz, port: 34556, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
   - {name: 🇯🇵 日本 5, server: trs21.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡_0622557, server: 92.223.116.207, port: 80, type: vmess, uuid: 3590898e-6f91-4a7b-de36-7c497d5197f9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdimoghaddam02.ddns.net}}}
-  - {name: 🇸🇬 新加坡_0622558, server: 92.223.116.221, port: 80, type: vmess, uuid: 62c655e5-d9a3-45c2-cc84-4141c542a6f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /mehdi, headers: {Host: mrfiltering.ddns.net}}}
-  - {name: 🇺🇸 美国_0622080, server: 64.32.20.97, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622126, server: 64.32.4.40, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2, server: sgmax02.170203.xyz, port: 45623, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
+  - {name: 🇸🇬 1|🇸🇬 _SG_新加坡 6, server: sgmax03.170203.xyz, port: 45436, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, sni: sgmax03.170203.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb, server: trs22.bolab.net, port: 443, type: trojan, password: 7a73f1dc97a70905870c0c0484b12145, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_06221127, server: 192.74.234.129, port: 49872, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622759, server: 38.40.219.181, port: 53362, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0622342, server: 45.58.186.83, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622528, server: 45.12.112.122, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622139, server: 107.167.16.217, port: 33589, type: vmess, uuid: 8c679b81-84fc-43ce-9553-ddca575a6949, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622140, server: 64.32.4.34, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622496, server: 45.136.235.10, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622353, server: 140.99.148.54, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622609, server: 140.99.59.226, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221058, server: 142.4.120.60, port: 51322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622084, server: 64.32.20.104, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221553, server: 192.74.242.151, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221076, server: 38.63.17.175, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221085, server: 38.63.17.178, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622509, server: 142.4.126.43, port: 44392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0622075, server: 140.99.59.230, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622208, server: 140.99.127.222, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622674, server: 137.175.4.118, port: 49871, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06221007, server: 142.4.104.201, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 22, server: 137.175.3.237, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06221066, server: 45.88.176.50, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622004, server: 137.175.9.200, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06221102, server: 45.12.112.117, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06221070, server: 140.99.129.196, port: 51338, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06226305, server: 142.4.115.246, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622210, server: 142.4.112.28, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622603, server: 140.99.59.253, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06221131, server: 142.4.112.29, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_06221093, server: 198.2.196.57, port: 54434, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0622760, server: 38.40.219.180, port: 53362, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622127, server: 107.167.16.85, port: 45689, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622556, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221103, server: 142.4.126.67, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622065, server: 137.175.18.89, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221074, server: 38.63.17.180, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622730, server: 137.175.9.201, port: 57902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622689, server: 107.148.194.237, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622074, server: 45.12.144.83, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_06221003, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622551, server: 198.2.234.70, port: 42349, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622073, server: 142.4.127.5, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622232, server: 137.175.1.13, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0622096, server: 64.32.24.210, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
   - {name: 🇳🇱 荷兰_0622025, server: 45.153.203.87, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: IL_speednode_0033, server: 149.50.67.151, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
   - {name: 🇳🇱 荷兰_0622024, server: 45.153.203.86, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_0622001, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇳🇱 _NL_荷兰 3, server: 154.85.1.242, port: 45516, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国_0622013, server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622023, server: 154.85.1.133, port: 30823, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622072, server: 45.153.203.88, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622009, server: 154.85.1.148, port: 53283, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇱 github.com/freefq - 以色列  30, server: nl3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: false}
+  - {name: 未知_0622007, server: 162.159.253.241, port: 2086, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}}
+  - {name: 白嫖-041, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false}
+  - {name: 未知_06224615, server: 198.41.196.136, port: 2086, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}}
+  - {name: 未知_0622005, server: 104.17.165.81, port: 8880, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}}
+  - {name: 未知_0622006, server: 104.18.35.98, port: 8080, type: vmess, uuid: 3b1b5871-6b4f-461d-8882-eba415d0ddf9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}}
+  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇬🇧 英国_0622014, server: 83.142.225.58, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622039, server: 154.85.1.51, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622016, server: 154.85.1.144, port: 47793, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false}
   - {name: 🇬🇧 英国_0622016, server: 83.142.225.32, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622010, server: 154.85.1.218, port: 48320, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 4, server: 149.50.75.197, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
-  - {name: 塞舌尔_0622003, server: 154.85.0.56, port: 49098, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: false}
   - {name: 🇫🇷 法国_0622012, server: 156.249.18.37, port: 48972, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_0622013, server: 51.195.125.16, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_0622001, server: 51.15.75.140, port: 443, type: vmess, uuid: 4df65f62-99d9-42d1-a4b9-a35b37b26873, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇫🇷 法国_0622034, server: 156.249.18.50, port: 49921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国_0622013, server: 83.142.225.20, port: 49920, type: vmess, uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e, alterId: 64, cipher: auto, tls: false}
+  - {name: FR_speednode_00%, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%, obfs-param: ""}
+  - {name: 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 46, server: uk01.170203.xyz, port: 43526, type: trojan, password: 535b9369-31d4-4685-9bb5-7c223d383524, skip-cert-verify: false}
   - {name: Relay_🇮🇱IL-🇬🇧GB_20 |10.87Mb, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇳🇱 荷兰_0622014, server: 154.85.1.151, port: 35656, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0622022, server: 154.85.1.137, port: 42094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_0622029, server: 51.159.67.118, port: 80, type: vmess, uuid: 925dadc4-7731-5376-fbf6-56de0232f0d0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_0622010, server: 51.195.125.31, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: NL_149.50.75.104_062220233888-706trojan, server: 149.50.75.104, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
   - {name: 🇳🇱 荷兰_0622004, server: br-bp.rnikjeh.shop, port: 443, type: vmess, uuid: d6f0af29-82c9-40e4-9236-b32f66a33096, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kSY4KXcsBmCgJEEFo3fkt9y4, headers: {Host: br-bp.rnikjeh.shop}}}
-  - {name: 🇫🇷 FR 14 → tg@nicevpn123, server: 51.158.98.130, port: 443, type: vmess, uuid: 8ec62dcf-9ead-48d6-afec-4aa4ed264a95, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇩🇪 德国_0622008, server: 130.61.179.77, port: 20574, type: vmess, uuid: 87e3048a-5932-457a-84b9-deb51b5c91cd, alterId: 0, cipher: auto, tls: false}
+  - {name: IL_speednode_0060, server: 149.50.89.78, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true}
+  - {name: 🇩🇪 德国_0622010, server: 54.38.154.182, port: 54902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,98 +112,98 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 香港_0622027
-      - 🇭🇰 香港_0622026
-      - 🇭🇰 香港_0622032
-      - 🇯🇵 日本_0622008
-      - 🇯🇵 JP(AzadNet.t.me)_007
-      - 🇯🇵 日本_0622005
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 18
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 12
-      - Relay_🇮🇱IL-🇯🇵JP_18 |49.55Mb
       - 🇯🇵 日本_0622055
-      - JP_140.238.52.171_062120231035-258ss%%
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 2
-      - 🇯🇵 日本_0622581
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 14
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 16
-      - 🇯🇵 日本_0622060
       - 🇯🇵 日本_0622070
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 24
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 15
-      - 🇰🇷 24|🇰🇷 _KR_韩国_
+      - 🇯🇵 6,8,24,26|_IL_以色列->🇯🇵_JP_日本 3
+      - JP_140.238.52.171_062120231035-258ss%%
+      - 🇯🇵 日本_0622005
+      - 🇯🇵 日本_0622060
+      - 🇯🇵 日本_0622008
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 39
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 35
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 38
+      - 🇯🇵 github.com/freefq - 日本  23
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 12
+      - 🇯🇵 JP(AzadNet.t.me)_007
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 29
+      - "%�\x11�%�P��� _JP%�\x16��本_1_5@%�"
+      - 🇯🇵 日本_0622010
       - 🇰🇷 1|🇰🇷 _KR_韩国
       - 🇯🇵 日本_0622023
-      - 🇸🇬 新加坡_0622096
+      - 🇰🇷 6,8,24,26|_KR_韩国
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 16
+      - 🇰🇷 韩国_0622003
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
+      - 🇭🇰 香港_0622032
+      - 🇭🇰 香港_0622026
+      - 🇭🇰 github.com/freefq - 香港  18
       - 🇸🇬 新加坡_0622008
-      - 🇸🇬 新加坡_0622079
+      - 🇸🇬 新加坡_0622096
       - 🇸🇬 新加坡_0622076
       - 🇸🇬 新加坡_0622075
       - 🇸🇬 新加坡_0622083
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 21
-      - 🇭🇰 20|🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡_0622079
       - 🇸🇬 20|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 1|🇸🇬 _SG_新加坡 7
-      - 🇸🇬 新加坡_0622836
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 19
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 14
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 7
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 5
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 20
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡_0622557
-      - 🇸🇬 新加坡_0622558
-      - 🇺🇸 美国_0622080
-      - 🇺🇸 美国_0622126
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
+      - 🇸🇬 1|🇸🇬 _SG_新加坡 6
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
+      - 🇺🇸 美国_06221127
+      - 🇺🇸 美国_0622759
       - 🇺🇸 美国_0622342
-      - 🇺🇸 美国_0622528
-      - 🇺🇸 美国_0622139
-      - 🇺🇸 美国_0622140
-      - 🇺🇸 美国_0622496
-      - 🇺🇸 美国_0622353
+      - 🇺🇸 美国_0622609
+      - 🇺🇸 美国_06221058
+      - 🇺🇸 美国_0622084
+      - 🇺🇸 美国_06221553
+      - 🇺🇸 美国_06221076
+      - 🇺🇸 美国_06221085
+      - 🇺🇸 美国_0622509
       - 🇺🇸 美国_0622075
-      - 🇺🇸 美国_0622208
-      - 🇺🇸 美国_0622674
-      - 🇺🇸 美国_06221007
-      - 🇺🇸 _US_美国 22
-      - 🇺🇸 美国_06221066
-      - 🇺🇸 美国_0622004
-      - 🇺🇸 美国_06221102
-      - 🇺🇸 美国_06221070
-      - 🇺🇸 美国_06226305
-      - 🇺🇸 美国_0622210
-      - 🇺🇸 美国_0622603
-      - 🇺🇸 美国_06221131
-      - 🇺🇸 美国_06221093
-      - 🇺🇸 美国_0622760
+      - 🇺🇸 美国_0622127
+      - 🇺🇸 美国_0622556
+      - 🇺🇸 美国_06221103
+      - 🇺🇸 美国_0622065
+      - 🇺🇸 美国_06221074
+      - 🇺🇸 美国_0622730
+      - 🇺🇸 美国_0622689
+      - 🇺🇸 美国_0622074
+      - 🇺🇸 美国_06221003
+      - 🇺🇸 美国_0622551
+      - 🇺🇸 美国_0622073
+      - 🇺🇸 美国_0622232
+      - 🇺🇸 美国_0622096
       - 🇳🇱 荷兰_0622025
-      - IL_speednode_0033
       - 🇳🇱 荷兰_0622024
-      - 🇫🇷 法国_0622001
-      - 🇳🇱 _NL_荷兰 3
-      - 🇬🇧 英国_0622013
-      - 🇳🇱 荷兰_0622023
-      - 🇳🇱 荷兰_0622072
-      - 🇳🇱 荷兰_0622009
-      - 🇮🇱 github.com/freefq - 以色列  30
+      - 未知_0622007
+      - 白嫖-041
+      - 未知_06224615
+      - 未知_0622005
+      - 未知_0622006
+      - GB_07
       - 🇬🇧 英国_0622014
-      - 🇳🇱 荷兰_0622039
-      - 🇳🇱 荷兰_0622016
       - 🇬🇧 英国_0622016
-      - 🇳🇱 荷兰_0622010
-      - 🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 4
-      - 塞舌尔_0622003
       - 🇫🇷 法国_0622012
+      - 🇫🇷 法国_0622013
+      - 🇫🇷 法国_0622001
+      - 🇫🇷 法国_0622034
+      - 🇬🇧 英国_0622013
+      - FR_speednode_00%
+      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 46
       - Relay_🇮🇱IL-🇬🇧GB_20 |10.87Mb
-      - 🇳🇱 荷兰_0622014
-      - 🇳🇱 荷兰_0622022
+      - 🇫🇷 法国_0622029
+      - 🇫🇷 法国_0622010
+      - NL_149.50.75.104_062220233888-706trojan
       - 🇳🇱 荷兰_0622004
-      - 🇫🇷 FR 14 → tg@nicevpn123
-      - 🇩🇪 德国_0622008
+      - IL_speednode_0060
+      - 🇩🇪 德国_0622010
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,276 +254,276 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港_0622027
-      - 🇭🇰 香港_0622026
-      - 🇭🇰 香港_0622032
-      - 🇯🇵 日本_0622008
-      - 🇯🇵 JP(AzadNet.t.me)_007
-      - 🇯🇵 日本_0622005
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 18
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 12
-      - Relay_🇮🇱IL-🇯🇵JP_18 |49.55Mb
       - 🇯🇵 日本_0622055
-      - JP_140.238.52.171_062120231035-258ss%%
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 2
-      - 🇯🇵 日本_0622581
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 14
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 16
-      - 🇯🇵 日本_0622060
       - 🇯🇵 日本_0622070
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 24
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 15
-      - 🇰🇷 24|🇰🇷 _KR_韩国_
+      - 🇯🇵 6,8,24,26|_IL_以色列->🇯🇵_JP_日本 3
+      - JP_140.238.52.171_062120231035-258ss%%
+      - 🇯🇵 日本_0622005
+      - 🇯🇵 日本_0622060
+      - 🇯🇵 日本_0622008
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 39
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 35
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 38
+      - 🇯🇵 github.com/freefq - 日本  23
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 12
+      - 🇯🇵 JP(AzadNet.t.me)_007
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 29
+      - "%�\x11�%�P��� _JP%�\x16��本_1_5@%�"
+      - 🇯🇵 日本_0622010
       - 🇰🇷 1|🇰🇷 _KR_韩国
       - 🇯🇵 日本_0622023
-      - 🇸🇬 新加坡_0622096
+      - 🇰🇷 6,8,24,26|_KR_韩国
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 16
+      - 🇰🇷 韩国_0622003
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
+      - 🇭🇰 香港_0622032
+      - 🇭🇰 香港_0622026
+      - 🇭🇰 github.com/freefq - 香港  18
       - 🇸🇬 新加坡_0622008
-      - 🇸🇬 新加坡_0622079
+      - 🇸🇬 新加坡_0622096
       - 🇸🇬 新加坡_0622076
       - 🇸🇬 新加坡_0622075
       - 🇸🇬 新加坡_0622083
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 21
-      - 🇭🇰 20|🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡_0622079
       - 🇸🇬 20|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 1|🇸🇬 _SG_新加坡 7
-      - 🇸🇬 新加坡_0622836
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 19
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 14
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 7
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 5
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 20
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡_0622557
-      - 🇸🇬 新加坡_0622558
-      - 🇺🇸 美国_0622080
-      - 🇺🇸 美国_0622126
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
+      - 🇸🇬 1|🇸🇬 _SG_新加坡 6
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
+      - 🇺🇸 美国_06221127
+      - 🇺🇸 美国_0622759
       - 🇺🇸 美国_0622342
-      - 🇺🇸 美国_0622528
-      - 🇺🇸 美国_0622139
-      - 🇺🇸 美国_0622140
-      - 🇺🇸 美国_0622496
-      - 🇺🇸 美国_0622353
+      - 🇺🇸 美国_0622609
+      - 🇺🇸 美国_06221058
+      - 🇺🇸 美国_0622084
+      - 🇺🇸 美国_06221553
+      - 🇺🇸 美国_06221076
+      - 🇺🇸 美国_06221085
+      - 🇺🇸 美国_0622509
       - 🇺🇸 美国_0622075
-      - 🇺🇸 美国_0622208
-      - 🇺🇸 美国_0622674
-      - 🇺🇸 美国_06221007
-      - 🇺🇸 _US_美国 22
-      - 🇺🇸 美国_06221066
-      - 🇺🇸 美国_0622004
-      - 🇺🇸 美国_06221102
-      - 🇺🇸 美国_06221070
-      - 🇺🇸 美国_06226305
-      - 🇺🇸 美国_0622210
-      - 🇺🇸 美国_0622603
-      - 🇺🇸 美国_06221131
-      - 🇺🇸 美国_06221093
-      - 🇺🇸 美国_0622760
+      - 🇺🇸 美国_0622127
+      - 🇺🇸 美国_0622556
+      - 🇺🇸 美国_06221103
+      - 🇺🇸 美国_0622065
+      - 🇺🇸 美国_06221074
+      - 🇺🇸 美国_0622730
+      - 🇺🇸 美国_0622689
+      - 🇺🇸 美国_0622074
+      - 🇺🇸 美国_06221003
+      - 🇺🇸 美国_0622551
+      - 🇺🇸 美国_0622073
+      - 🇺🇸 美国_0622232
+      - 🇺🇸 美国_0622096
       - 🇳🇱 荷兰_0622025
-      - IL_speednode_0033
       - 🇳🇱 荷兰_0622024
-      - 🇫🇷 法国_0622001
-      - 🇳🇱 _NL_荷兰 3
-      - 🇬🇧 英国_0622013
-      - 🇳🇱 荷兰_0622023
-      - 🇳🇱 荷兰_0622072
-      - 🇳🇱 荷兰_0622009
-      - 🇮🇱 github.com/freefq - 以色列  30
+      - 未知_0622007
+      - 白嫖-041
+      - 未知_06224615
+      - 未知_0622005
+      - 未知_0622006
+      - GB_07
       - 🇬🇧 英国_0622014
-      - 🇳🇱 荷兰_0622039
-      - 🇳🇱 荷兰_0622016
       - 🇬🇧 英国_0622016
-      - 🇳🇱 荷兰_0622010
-      - 🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 4
-      - 塞舌尔_0622003
       - 🇫🇷 法国_0622012
+      - 🇫🇷 法国_0622013
+      - 🇫🇷 法国_0622001
+      - 🇫🇷 法国_0622034
+      - 🇬🇧 英国_0622013
+      - FR_speednode_00%
+      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 46
       - Relay_🇮🇱IL-🇬🇧GB_20 |10.87Mb
-      - 🇳🇱 荷兰_0622014
-      - 🇳🇱 荷兰_0622022
+      - 🇫🇷 法国_0622029
+      - 🇫🇷 法国_0622010
+      - NL_149.50.75.104_062220233888-706trojan
       - 🇳🇱 荷兰_0622004
-      - 🇫🇷 FR 14 → tg@nicevpn123
-      - 🇩🇪 德国_0622008
+      - IL_speednode_0060
+      - 🇩🇪 德国_0622010
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港_0622027
-      - 🇭🇰 香港_0622026
-      - 🇭🇰 香港_0622032
-      - 🇯🇵 日本_0622008
-      - 🇯🇵 JP(AzadNet.t.me)_007
-      - 🇯🇵 日本_0622005
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 18
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 12
-      - Relay_🇮🇱IL-🇯🇵JP_18 |49.55Mb
       - 🇯🇵 日本_0622055
-      - JP_140.238.52.171_062120231035-258ss%%
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 2
-      - 🇯🇵 日本_0622581
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 14
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 16
-      - 🇯🇵 日本_0622060
       - 🇯🇵 日本_0622070
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 24
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 15
-      - 🇰🇷 24|🇰🇷 _KR_韩国_
+      - 🇯🇵 6,8,24,26|_IL_以色列->🇯🇵_JP_日本 3
+      - JP_140.238.52.171_062120231035-258ss%%
+      - 🇯🇵 日本_0622005
+      - 🇯🇵 日本_0622060
+      - 🇯🇵 日本_0622008
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 39
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 35
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 38
+      - 🇯🇵 github.com/freefq - 日本  23
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 12
+      - 🇯🇵 JP(AzadNet.t.me)_007
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 29
+      - "%�\x11�%�P��� _JP%�\x16��本_1_5@%�"
+      - 🇯🇵 日本_0622010
       - 🇰🇷 1|🇰🇷 _KR_韩国
       - 🇯🇵 日本_0622023
-      - 🇸🇬 新加坡_0622096
+      - 🇰🇷 6,8,24,26|_KR_韩国
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 16
+      - 🇰🇷 韩国_0622003
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
+      - 🇭🇰 香港_0622032
+      - 🇭🇰 香港_0622026
+      - 🇭🇰 github.com/freefq - 香港  18
       - 🇸🇬 新加坡_0622008
-      - 🇸🇬 新加坡_0622079
+      - 🇸🇬 新加坡_0622096
       - 🇸🇬 新加坡_0622076
       - 🇸🇬 新加坡_0622075
       - 🇸🇬 新加坡_0622083
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 21
-      - 🇭🇰 20|🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡_0622079
       - 🇸🇬 20|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 1|🇸🇬 _SG_新加坡 7
-      - 🇸🇬 新加坡_0622836
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 19
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 14
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 7
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 5
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 20
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡_0622557
-      - 🇸🇬 新加坡_0622558
-      - 🇺🇸 美国_0622080
-      - 🇺🇸 美国_0622126
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
+      - 🇸🇬 1|🇸🇬 _SG_新加坡 6
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
+      - 🇺🇸 美国_06221127
+      - 🇺🇸 美国_0622759
       - 🇺🇸 美国_0622342
-      - 🇺🇸 美国_0622528
-      - 🇺🇸 美国_0622139
-      - 🇺🇸 美国_0622140
-      - 🇺🇸 美国_0622496
-      - 🇺🇸 美国_0622353
+      - 🇺🇸 美国_0622609
+      - 🇺🇸 美国_06221058
+      - 🇺🇸 美国_0622084
+      - 🇺🇸 美国_06221553
+      - 🇺🇸 美国_06221076
+      - 🇺🇸 美国_06221085
+      - 🇺🇸 美国_0622509
       - 🇺🇸 美国_0622075
-      - 🇺🇸 美国_0622208
-      - 🇺🇸 美国_0622674
-      - 🇺🇸 美国_06221007
-      - 🇺🇸 _US_美国 22
-      - 🇺🇸 美国_06221066
-      - 🇺🇸 美国_0622004
-      - 🇺🇸 美国_06221102
-      - 🇺🇸 美国_06221070
-      - 🇺🇸 美国_06226305
-      - 🇺🇸 美国_0622210
-      - 🇺🇸 美国_0622603
-      - 🇺🇸 美国_06221131
-      - 🇺🇸 美国_06221093
-      - 🇺🇸 美国_0622760
+      - 🇺🇸 美国_0622127
+      - 🇺🇸 美国_0622556
+      - 🇺🇸 美国_06221103
+      - 🇺🇸 美国_0622065
+      - 🇺🇸 美国_06221074
+      - 🇺🇸 美国_0622730
+      - 🇺🇸 美国_0622689
+      - 🇺🇸 美国_0622074
+      - 🇺🇸 美国_06221003
+      - 🇺🇸 美国_0622551
+      - 🇺🇸 美国_0622073
+      - 🇺🇸 美国_0622232
+      - 🇺🇸 美国_0622096
       - 🇳🇱 荷兰_0622025
-      - IL_speednode_0033
       - 🇳🇱 荷兰_0622024
-      - 🇫🇷 法国_0622001
-      - 🇳🇱 _NL_荷兰 3
-      - 🇬🇧 英国_0622013
-      - 🇳🇱 荷兰_0622023
-      - 🇳🇱 荷兰_0622072
-      - 🇳🇱 荷兰_0622009
-      - 🇮🇱 github.com/freefq - 以色列  30
+      - 未知_0622007
+      - 白嫖-041
+      - 未知_06224615
+      - 未知_0622005
+      - 未知_0622006
+      - GB_07
       - 🇬🇧 英国_0622014
-      - 🇳🇱 荷兰_0622039
-      - 🇳🇱 荷兰_0622016
       - 🇬🇧 英国_0622016
-      - 🇳🇱 荷兰_0622010
-      - 🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 4
-      - 塞舌尔_0622003
       - 🇫🇷 法国_0622012
+      - 🇫🇷 法国_0622013
+      - 🇫🇷 法国_0622001
+      - 🇫🇷 法国_0622034
+      - 🇬🇧 英国_0622013
+      - FR_speednode_00%
+      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 46
       - Relay_🇮🇱IL-🇬🇧GB_20 |10.87Mb
-      - 🇳🇱 荷兰_0622014
-      - 🇳🇱 荷兰_0622022
+      - 🇫🇷 法国_0622029
+      - 🇫🇷 法国_0622010
+      - NL_149.50.75.104_062220233888-706trojan
       - 🇳🇱 荷兰_0622004
-      - 🇫🇷 FR 14 → tg@nicevpn123
-      - 🇩🇪 德国_0622008
+      - IL_speednode_0060
+      - 🇩🇪 德国_0622010
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_0622080
-      - 🇺🇸 美国_0622126
+      - 🇺🇸 美国_06221127
+      - 🇺🇸 美国_0622759
       - 🇺🇸 美国_0622342
-      - 🇺🇸 美国_0622528
-      - 🇺🇸 美国_0622139
-      - 🇺🇸 美国_0622140
-      - 🇺🇸 美国_0622496
-      - 🇺🇸 美国_0622353
+      - 🇺🇸 美国_0622609
+      - 🇺🇸 美国_06221058
+      - 🇺🇸 美国_0622084
+      - 🇺🇸 美国_06221553
+      - 🇺🇸 美国_06221076
+      - 🇺🇸 美国_06221085
+      - 🇺🇸 美国_0622509
       - 🇺🇸 美国_0622075
-      - 🇺🇸 美国_0622208
-      - 🇺🇸 美国_0622674
-      - 🇺🇸 美国_06221007
-      - 🇺🇸 _US_美国 22
-      - 🇺🇸 美国_06221066
-      - 🇺🇸 美国_0622004
-      - 🇺🇸 美国_06221102
-      - 🇺🇸 美国_06221070
-      - 🇺🇸 美国_06226305
-      - 🇺🇸 美国_0622210
-      - 🇺🇸 美国_0622603
-      - 🇺🇸 美国_06221131
-      - 🇺🇸 美国_06221093
-      - 🇺🇸 美国_0622760
+      - 🇺🇸 美国_0622127
+      - 🇺🇸 美国_0622556
+      - 🇺🇸 美国_06221103
+      - 🇺🇸 美国_0622065
+      - 🇺🇸 美国_06221074
+      - 🇺🇸 美国_0622730
+      - 🇺🇸 美国_0622689
+      - 🇺🇸 美国_0622074
+      - 🇺🇸 美国_06221003
+      - 🇺🇸 美国_0622551
+      - 🇺🇸 美国_0622073
+      - 🇺🇸 美国_0622232
+      - 🇺🇸 美国_0622096
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 香港_0622027
-      - 🇭🇰 香港_0622026
-      - 🇭🇰 香港_0622032
-      - 🇯🇵 日本_0622008
-      - 🇯🇵 JP(AzadNet.t.me)_007
-      - 🇯🇵 日本_0622005
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 18
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 12
-      - Relay_🇮🇱IL-🇯🇵JP_18 |49.55Mb
       - 🇯🇵 日本_0622055
-      - JP_140.238.52.171_062120231035-258ss%%
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 2
-      - 🇯🇵 日本_0622581
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 14
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 16
-      - 🇯🇵 日本_0622060
       - 🇯🇵 日本_0622070
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 24
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 15
-      - 🇰🇷 24|🇰🇷 _KR_韩国_
+      - 🇯🇵 6,8,24,26|_IL_以色列->🇯🇵_JP_日本 3
+      - JP_140.238.52.171_062120231035-258ss%%
+      - 🇯🇵 日本_0622005
+      - 🇯🇵 日本_0622060
+      - 🇯🇵 日本_0622008
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 39
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 35
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 38
+      - 🇯🇵 github.com/freefq - 日本  23
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 12
+      - 🇯🇵 JP(AzadNet.t.me)_007
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 29
+      - "%�\x11�%�P��� _JP%�\x16��本_1_5@%�"
+      - 🇯🇵 日本_0622010
       - 🇰🇷 1|🇰🇷 _KR_韩国
       - 🇯🇵 日本_0622023
-      - 🇸🇬 新加坡_0622096
+      - 🇰🇷 6,8,24,26|_KR_韩国
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 16
+      - 🇰🇷 韩国_0622003
+      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
+      - 🇭🇰 香港_0622032
+      - 🇭🇰 香港_0622026
+      - 🇭🇰 github.com/freefq - 香港  18
       - 🇸🇬 新加坡_0622008
-      - 🇸🇬 新加坡_0622079
+      - 🇸🇬 新加坡_0622096
       - 🇸🇬 新加坡_0622076
       - 🇸🇬 新加坡_0622075
       - 🇸🇬 新加坡_0622083
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_24
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 21
-      - 🇭🇰 20|🇭🇰 香港3|@ripaojiedian
+      - 🇸🇬 新加坡_0622079
       - 🇸🇬 20|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 1|🇸🇬 _SG_新加坡 7
-      - 🇸🇬 新加坡_0622836
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 19
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 14
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 7
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 5
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 20
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
       - 🇯🇵 日本 5
-      - 🇸🇬 新加坡_0622557
-      - 🇸🇬 新加坡_0622558
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
+      - 🇸🇬 1|🇸🇬 _SG_新加坡 6
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -531,117 +531,116 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇳🇱 荷兰_0622025
-      - IL_speednode_0033
       - 🇳🇱 荷兰_0622024
-      - 🇫🇷 法国_0622001
-      - 🇳🇱 _NL_荷兰 3
-      - 🇬🇧 英国_0622013
-      - 🇳🇱 荷兰_0622023
-      - 🇳🇱 荷兰_0622072
-      - 🇳🇱 荷兰_0622009
-      - 🇮🇱 github.com/freefq - 以色列  30
+      - 未知_0622007
+      - 白嫖-041
+      - 未知_06224615
+      - 未知_0622005
+      - 未知_0622006
+      - GB_07
       - 🇬🇧 英国_0622014
-      - 🇳🇱 荷兰_0622039
-      - 🇳🇱 荷兰_0622016
       - 🇬🇧 英国_0622016
-      - 🇳🇱 荷兰_0622010
-      - 🇮🇱 _IL_以色列->🇳🇱_NL_荷兰 4
-      - 塞舌尔_0622003
       - 🇫🇷 法国_0622012
+      - 🇫🇷 法国_0622013
+      - 🇫🇷 法国_0622001
+      - 🇫🇷 法国_0622034
+      - 🇬🇧 英国_0622013
+      - FR_speednode_00%
+      - 🇬🇧 github.com/freefq - 英国伦敦Amazon数据中心 46
       - Relay_🇮🇱IL-🇬🇧GB_20 |10.87Mb
-      - 🇳🇱 荷兰_0622014
-      - 🇳🇱 荷兰_0622022
+      - 🇫🇷 法国_0622029
+      - 🇫🇷 法国_0622010
+      - NL_149.50.75.104_062220233888-706trojan
       - 🇳🇱 荷兰_0622004
-      - 🇫🇷 FR 14 → tg@nicevpn123
-      - 🇩🇪 德国_0622008
+      - IL_speednode_0060
+      - 🇩🇪 德国_0622010
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_0622080
-      - 🇺🇸 美国_0622126
+      - 🇺🇸 美国_06221127
+      - 🇺🇸 美国_0622759
       - 🇺🇸 美国_0622342
-      - 🇺🇸 美国_0622528
-      - 🇺🇸 美国_0622139
-      - 🇺🇸 美国_0622140
-      - 🇺🇸 美国_0622496
-      - 🇺🇸 美国_0622353
+      - 🇺🇸 美国_0622609
+      - 🇺🇸 美国_06221058
+      - 🇺🇸 美国_0622084
+      - 🇺🇸 美国_06221553
+      - 🇺🇸 美国_06221076
+      - 🇺🇸 美国_06221085
+      - 🇺🇸 美国_0622509
       - 🇺🇸 美国_0622075
-      - 🇺🇸 美国_0622208
-      - 🇺🇸 美国_0622674
-      - 🇺🇸 美国_06221007
-      - 🇺🇸 _US_美国 22
-      - 🇺🇸 美国_06221066
-      - 🇺🇸 美国_0622004
-      - 🇺🇸 美国_06221102
-      - 🇺🇸 美国_06221070
-      - 🇺🇸 美国_06226305
-      - 🇺🇸 美国_0622210
-      - 🇺🇸 美国_0622603
-      - 🇺🇸 美国_06221131
-      - 🇺🇸 美国_06221093
-      - 🇺🇸 美国_0622760
+      - 🇺🇸 美国_0622127
+      - 🇺🇸 美国_0622556
+      - 🇺🇸 美国_06221103
+      - 🇺🇸 美国_0622065
+      - 🇺🇸 美国_06221074
+      - 🇺🇸 美国_0622730
+      - 🇺🇸 美国_0622689
+      - 🇺🇸 美国_0622074
+      - 🇺🇸 美国_06221003
+      - 🇺🇸 美国_0622551
+      - 🇺🇸 美国_0622073
+      - 🇺🇸 美国_0622232
+      - 🇺🇸 美国_0622096
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 香港_0622027
-      - 🇭🇰 香港_0622026
       - 🇭🇰 香港_0622032
-      - 🇭🇰 20|🇭🇰 香港3|@ripaojiedian
+      - 🇭🇰 香港_0622026
+      - 🇭🇰 github.com/freefq - 香港  18
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_0622096
       - 🇸🇬 新加坡_0622008
-      - 🇸🇬 新加坡_0622079
+      - 🇸🇬 新加坡_0622096
       - 🇸🇬 新加坡_0622076
       - 🇸🇬 新加坡_0622075
       - 🇸🇬 新加坡_0622083
+      - 🇸🇬 新加坡_0622079
       - 🇸🇬 20|🇸🇬 新加坡|@ripaojiedian
-      - 🇸🇬 1|🇸🇬 _SG_新加坡 7
-      - 🇸🇬 新加坡_0622836
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 19
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 15
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 14
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 1
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 7
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 5
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 3
-      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 20
       - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 2
-      - 🇸🇬 新加坡_0622557
-      - 🇸🇬 新加坡_0622558
+      - 🇸🇬 1|🇸🇬 _SG_新加坡 6
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本_0622008
-      - 🇯🇵 JP(AzadNet.t.me)_007
-      - 🇯🇵 日本_0622005
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 18
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 12
-      - Relay_🇮🇱IL-🇯🇵JP_18 |49.55Mb
       - 🇯🇵 日本_0622055
-      - JP_140.238.52.171_062120231035-258ss%%
-      - 🇯🇵 _IL_以色列->🇯🇵_JP_日本 2
-      - 🇯🇵 日本_0622581
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 14
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 16
-      - 🇯🇵 日本_0622060
       - 🇯🇵 日本_0622070
-      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 24
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 15
+      - 🇯🇵 6,8,24,26|_IL_以色列->🇯🇵_JP_日本 3
+      - JP_140.238.52.171_062120231035-258ss%%
+      - 🇯🇵 日本_0622005
+      - 🇯🇵 日本_0622060
+      - 🇯🇵 日本_0622008
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 39
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 35
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 13
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 28
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 38
+      - 🇯🇵 github.com/freefq - 日本  23
+      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 12
+      - 🇯🇵 JP(AzadNet.t.me)_007
+      - 🇯🇵 github.com/freefq - 日本东京Amazon数据中心 29
+      - "%�\x11�%�P��� _JP%�\x16��本_1_5@%�"
+      - 🇯🇵 日本_0622010
       - 🇯🇵 日本_0622023
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
       - 🇯🇵 日本 5
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_23 |37.64Mb
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -655,9 +654,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 24|🇰🇷 _KR_韩国_
       - 🇰🇷 1|🇰🇷 _KR_韩国
-      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 21
+      - 🇰🇷 6,8,24,26|_KR_韩国
+      - 🇰🇷 github.com/freefq - 韩国首尔Amazon数据中心 16
+      - 🇰🇷 韩国_0622003
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
