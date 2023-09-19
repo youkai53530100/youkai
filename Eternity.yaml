@@ -5,27 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian, server: 35.72.9.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇭🇰 香港\r", server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇸🇬 _SG_新加坡 3 2 2, server: sg1.fighting.win, port: 10001, type: trojan, password: 8861ad96-45d4-42f7-9703-7de363a39a0f, skip-cert-verify: true}
-  - {name: 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380, server: cn-hk-51.fnhffffe4.cc, port: 50014, type: trojan, password: 73658d71-be45-4495-bc3e-e69d36ce73b5, sni: telewebion.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡_0915020, server: 146.190.100.183, port: 18697, type: trojan, password: wishva, sni: docs.google.com, skip-cert-verify: true}
   - {name: "🇭🇰 香港\r 2", server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_0919009, server: 18.143.75.80, port: 443, type: vmess, uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇨🇳 台湾\r", server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: false}
+  - {name: 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380, server: cn-hk-51.fnhffffe4.cc, port: 50014, type: trojan, password: 73658d71-be45-4495-bc3e-e69d36ce73b5, sni: telewebion.com, skip-cert-verify: true}
+  - {name: 🇭🇰 15|香港B|@ripaojiedian, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
+  - {name: 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian, server: 52.221.194.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡_0919036, server: 8.222.138.164, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
   - {name: 🇨🇳 台湾_0919001, server: 61.219.15.81, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 014+10—🇭🇰—HK, server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 32, cipher: auto, tls: false, network: ws, ws-opts: {path: /opt/video/images}}
-  - {name: 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
-  - {name: 🇯🇵 日本 63, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
   - {name: 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23, server: 18.163.249.175, port: 443, type: trojan, password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g, sni: golang.protocolbuffer.com, skip-cert-verify: true}
+  - {name: 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian, server: 13.231.243.192, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: "🇨🇳 台湾\r", server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: false}
   - {name: SG_40 |35.53Mb, server: 8.210.128.146, port: 36788, type: vmess, uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 _JP_日本_1, server: 54.238.87.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian, server: 35.72.9.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 014+10—🇭🇰—HK, server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 32, cipher: auto, tls: false, network: ws, ws-opts: {path: /opt/video/images}}
+  - {name: 🇯🇵 日本_0916011, server: 1gzdx2.156786.xyz, port: 37905, type: trojan, password: 98bae868-4f00-40e0-9603-8d848644ec44, sni: hkmax06.170203.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_0919046, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 _SG_新加坡 9, server: 15.235.197.4, port: 80, type: trojan, password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d, sni: 15.235.197.4, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国_0919049, server: xiongda006.daxiongda.top, port: 18804, type: vmess, uuid: b10af5ff-4d04-4fc7-ab43-8a3b15481d19, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xiongda006.daxiongda.top}}}
+  - {name: 🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点机场, server: hkbn1.411api-snisajdnjkndd.com, port: 4443, type: vmess, uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkbn1.411api-snisajdnjkndd.com}}}
   - {name: 🇨🇳 Taiwan 02 @nodpai, server: tw1.kidcc.xyz, port: 8443, type: vmess, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.kidcc.xyz}}}
-  - {name: 🇯🇵 日本_0919010, server: 103.140.137.11, port: 18443, type: vmess, uuid: 9d6fd014-095e-45ca-b61f-01618eb51016, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bak-hinet.kidcc.xyz}}}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB, server: tw1.linghun3.xyz, port: 40004, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇭🇰 香港 023, server: 43.229.154.121, port: 39372, type: vmess, uuid: a783230b-cd66-4492-9517-7f6cf569e1c9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/vm?ed=2048", headers: {Host: v6.kxking.eu.org}}}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB, server: assets.flareai.site, port: 15343, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB, server: tw1.linghun3.xyz, port: 40004, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14107, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB, server: api-wx-4.rancho.gay, port: 50110, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB, server: catlog.flareai.science, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
@@ -46,56 +49,54 @@ proxies:
   - {name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 625tw.ljydw.top, skip-cert-verify: false}
   - {name: 🇭🇰 Hong Kong 01 TG@SSRSUB, server: hk19.microsoftjs.top, port: 443, type: trojan, password: a21e5380-7711-4c6d-af44-e6210e5436af, skip-cert-verify: false}
   - {name: 🇭🇰 Hong Kong 05 TG@SSRSUB, server: 16.162.44.241, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB, server: a017.zhuan99.men, port: 10017, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB, server: a001.zhuan99.men, port: 10001, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB, server: a015.zhuan99.men, port: 10015, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 099, server: 198.2.202.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.65825524.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 8, server: api.jquery.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /oliv.beauty:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_103 |16.36Mb, server: a017.zhuan99.men, port: 10017, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: "zhu.99ton.men#%F0%9F%87%AD%F0%9F%87%B0%20Relay%20%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2029%20TG%40SSRSUBtrojan://3550ce3dec@usa3.connecton.surf:443?allowInsecure=0", skip-cert-verify: false}
   - {name: 🇺🇸 美国_0919041, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 🇺🇸 美国_0919034, server: speedip.eu.org, port: 80, type: vmess, uuid: 4f6a443b-233e-47b8-a4af-d77f76ea181a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xingsuyun, headers: {Host: us6.xingsu.fun}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: speedip.eu.org, port: 80, type: vmess, uuid: 4f6a443b-233e-47b8-a4af-d77f76ea181a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xingsuyun, headers: {Host: us6.xingsu.fun}}}
-  - {name: 🇨🇦 12|🇨🇦 加拿大 105, server: mci1.amo2023.club, port: 2096, type: vmess, uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mci1.amo2023.club}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19, server: 104.31.16.14, port: 443, type: vmess, uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@hopev2ray, headers: {Host: de1vm.cdn-03.live}}}
-  - {name: 🇺🇸 美国_0919006, server: 107.167.30.181, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_83 |21.35Mb, server: uk1.connecton.surf, port: 443, type: trojan, password: ee4657c907, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国_欢迎订阅yui科技_73, server: 156.225.67.24, port: 51181, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 189, server: 104.17.51.66, port: 2087, type: vmess, uuid: 1e404e80-6a84-467b-9fe9-8a27794ddc43, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: gerr3.appmanage5.ir}}}
-  - {name: 🇨🇦 加拿大 156, server: 51vfly1.win, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 51vfly1.win}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.31.16.196, port: 443, type: vmess, uuid: E1159362-D986-4315-B814-C12912B91DBA, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14, server: datacenter.ct.01.biqibao.site, port: 2052, type: vmess, uuid: 34a92724-02d0-42d6-8b24-18bd13c2b88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /public, headers: {Host: de2.biqibao.site}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 16, server: fd.shabijichang.com, port: 80, type: vmess, uuid: beaa0ee8-1ff6-4ee5-982d-258f0d830018, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
-  - {name: 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 25, server: Tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 🇺🇸 美国_0919062, server: 45.199.138.62, port: 36307, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0919125, server: 23.236.69.195, port: 60222, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇺🇸 美国_0919096, server: 91.229.132.31, port: 8088, type: vmess, uuid: 3a3befc9-e26e-431a-a442-a6ed789df2e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aa?ed=2048"}}
+  - {name: 🇺🇸 美国 099, server: 198.2.202.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.65825524.xyz}}}
+  - {name: 🇺🇸 美国 107, server: 198.2.207.99, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.27790575.xyz}}}
+  - {name: 🇨🇦 加拿大 105, server: mci1.amo2023.club, port: 2096, type: vmess, uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mci1.amo2023.club}}}
+  - {name: 🇨🇦 加拿大_0919018, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_84 |17.18Mb, server: usa2.connecton.surf, port: 443, type: trojan, password: 29dbe98050, skip-cert-verify: false}
+  - {name: 🇨🇦 加拿大 168, server: cf7.jiasuq.top, port: 2087, type: vmess, uuid: c36d64fa-cad1-43c7-a391-c13392af2e1b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: au1.jiasuq.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 12, server: free1.getn.eu.org, port: 80, type: vmess, uuid: 8b646738-561b-11ee-8ce3-735a992e773e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Telegram-SolidV2ray, headers: {Host: free1.getn.eu.org}}}
+  - {name: 🇨🇦 加拿大 166, server: cf5.jiasuq.top, port: 2087, type: vmess, uuid: c36d64fa-cad1-43c7-a391-c13392af2e1b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: au1.jiasuq.top}}}
   - {name: 🇺🇸 美国_0919387, server: fd.shabijichang.com, port: 80, type: vmess, uuid: beaa0ee8-1ff6-4ee5-982d-258f0d830018, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: 🇨🇦 加拿大 167, server: cf6.jiasuq.top, port: 2087, type: vmess, uuid: c36d64fa-cad1-43c7-a391-c13392af2e1b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: au1.jiasuq.top}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 27, server: fd.shabijichang.com, port: 80, type: vmess, uuid: beaa0ee8-1ff6-4ee5-982d-258f0d830018, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 26, server: 172.67.32.43, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: 🇺🇸 美国_0919096, server: 91.229.132.31, port: 8088, type: vmess, uuid: 3a3befc9-e26e-431a-a442-a6ed789df2e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aa?ed=2048"}}
+  - {name: 🇺🇸 美国_0919062, server: 45.199.138.62, port: 36307, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大 190, server: 172.67.78.109, port: 80, type: vmess, uuid: beaa0ee8-1ff6-4ee5-982d-258f0d830018, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
+  - {name: 🇺🇸 美国_0919125, server: 23.236.69.195, port: 60222, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29, server: speedip.eu.org, port: 80, type: vmess, uuid: 6f24031c-ce7a-4f65-a3dd-a33a9e2b542c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/vmess?ed=2048", headers: {Host: opportunity-ez-maryland-marketing.trycloudflare.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15, server: 104.31.16.196, port: 443, type: vmess, uuid: E1159362-D986-4315-B814-C12912B91DBA, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32, server: 104.18.12.192, port: 80, type: vmess, uuid: 60492148-7815-4259-acdc-92bd15afa81c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: france-1vm.mr-radwan-daoud.de}}}
   - {name: 🇺🇸 _US_美国_欢迎订阅yui科技_107, server: 45.199.138.155, port: 36307, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 12|🇺🇸 美国 270, server: vfly3.win, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly3.win}}}
-  - {name: 频道50@wxgqlfx, server: 3.11.166.55, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰_0919003, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 荷兰 006, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
-  - {name: "|45.24Mb", server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ | 7.97Mb, server: 37.120.193.102, port: 52920, type: vmess, uuid: 57170ff0-7180-4664-8f61-8debdda345f7, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇻🇳 越南\r", server: 103.81.85.238, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-vn.windowsupdatea.com, skip-cert-verify: false}
-  - {name: "🇻🇳 越南\r 2", server: 103.173.255.234, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-vn.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 未知_0919021, server: 23.158.56.89, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 频道07@wxgqlfx, server: 46.137.153.44, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 23, server: 134.195.196.178, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 防失效github SubCrawler中国_0919063, server: 183.240.232.81, port: 58271, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 254254.xyz👈购买地址 6, server: 163.123.192.33, port: 443, type: trojan, password: 4c2e7f40-3011-4c77-a066-eda17440e985, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: "7,8|🇻🇳 Viet Nam 05 @nodpai", server: hcmgame1.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hcmgame1.4ghatde.com, headers: {Host: hcmgame1.4ghatde.com}}}
-  - {name: "|15.97Mb", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: "7,8|🇻🇳 Viet Nam 09 @nodpai", server: hcm.super1.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hcm.super1.4ghatde.com, headers: {Host: hcm.super1.4ghatde.com}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 白嫖-373, server: rzuee-1075-tr-0.d-hinet-02.ddll.bond, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
-  - {name: 🇵🇭 菲律宾_0919001, server: 109.248.25.59, port: 29064, type: vmess, uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ss}}
-  - {name: Viet Nam 05 @nodpai, server: datavietnam6.kanevip.com, port: 80, type: vmess, uuid: 6b6395bd-21db-484b-aa35-4d10f93d3b15, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: datavietnam6.kanevip.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 25, server: free3.getn.eu.org, port: 80, type: vmess, uuid: ab90d666-5618-11ee-9389-3384e0e85565, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Telegram-SolidV2ray, headers: {Host: free3.getn.eu.org}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18, server: 104.17.77.6, port: 2052, type: vmess, uuid: 23bea995-d5db-4530-85d1-ddb2082e1811, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /public, headers: {Host: de.biqibao.site}}}
   - {name: 频道43@wxgqlfx, server: 52.16.94.96, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 频道07@wxgqlfx, server: 46.137.153.44, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 频道47@wxgqlfx, server: 15.236.162.118, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 🇩🇪 德国_0919005, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false}
+  - {name: 频道30@wxgqlfx, server: 3.69.209.69, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: "|15.84Mb", server: 103.149.144.196, port: 35186, type: vmess, uuid: a406e9f8-d80c-45cb-efa1-b63855b79814, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇻🇳 越南\r 2", server: 103.173.255.234, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-vn.windowsupdatea.com, skip-cert-verify: false}
+  - {name: "|15.97Mb", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇻🇳 越南\r", server: 103.81.85.238, port: 443, type: trojan, password: 777cdf41-c6d8-4b62-8b4d-ea2bb2950831, sni: glc-vn.windowsupdatea.com, skip-cert-verify: false}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 23, server: 134.195.196.178, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 白嫖-373, server: rzuee-1075-tr-0.d-hinet-02.ddll.bond, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 2, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇳🇱 荷兰 006, server: ming2.kiwireich.com, port: 443, type: vmess, uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: ming2.kiwireich.com}}}
+  - {name: 🇵🇭 菲律宾_0919001, server: 109.248.25.59, port: 29064, type: vmess, uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ss}}
+  - {name: 🇨🇳 防失效github SubCrawler中国_0919063, server: 183.240.232.81, port: 58271, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇱🇺 卢森堡_0919001, server: free4.getn.eu.org, port: 80, type: vmess, uuid: 852b850a-561a-11ee-8658-52cf00e461ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Telegram-SolidV2ray, headers: {Host: free4.getn.eu.org}}}
   - {name: 🇳🇱 荷兰_0919006, server: vc-185.162.235.250.nip.io, port: 2054, type: vmess, uuid: 6f117af4-cd52-40f8-9236-7c5e3f357cc8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /socket.io, headers: {Host: vc-185.162.235.250.nip.io}}}
+  - {name: 🇮🇩 印度尼西亚_0919003, server: 103.167.35.12, port: 80, type: vmess, uuid: 781adf87-0afa-420c-875f-879162a2bce1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇨🇳 Taiwan 02 @nodpai 2, server: tw1.kidcc.xyz, port: 8443, type: vmess, uuid: a8974bec-526d-4b4e-a46f-f0d6626ca576, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tw1.kidcc.xyz}}}
+  - {name: 🇦🇺 澳大利亚_0919019, server: au1-vmess.greenssh.xyz, port: 80, type: vmess, uuid: b3703935-6e7b-4012-ad7e-b44ccddc776f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: au1-vmess.greenssh.xyz}}}
+  - {name: 🇦🇺 澳大利亚_0919006, server: au2-vmess.greenssh.xyz, port: 80, type: vmess, uuid: bf86a617-e0c2-4f7f-8a3a-12364d2a4df9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: au2-vmess.greenssh.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,27 +112,30 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - "🇭🇰 香港\r"
-      - 🇸🇬 _SG_新加坡 3 2 2
-      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇸🇬 新加坡_0915020
       - "🇭🇰 香港\r 2"
-      - 🇸🇬 新加坡_0919009
-      - "🇨🇳 台湾\r"
+      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇭🇰 15|香港B|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0919036
       - 🇨🇳 台湾_0919001
-      - 🇭🇰 014+10—🇭🇰—HK
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
-      - 🇯🇵 日本 63
       - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - "🇨🇳 台湾\r"
       - SG_40 |35.53Mb
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 014+10—🇭🇰—HK
+      - 🇯🇵 日本_0916011
+      - 🇸🇬 新加坡_0919046
       - 🇸🇬 _SG_新加坡 9
-      - 🇰🇷 韩国_0919049
+      - 🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点机场
       - 🇨🇳 Taiwan 02 @nodpai
-      - 🇯🇵 日本_0919010
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇭🇰 香港 023
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
@@ -152,56 +156,54 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇺🇸 美国 099
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_103 |16.36Mb
       - 🇺🇸 美国_0919041
-      - 🇺🇸 美国_0919034
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇨🇦 12|🇨🇦 加拿大 105
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 美国_0919006
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_83 |21.35Mb
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_73
-      - 🇨🇦 加拿大 189
-      - 🇨🇦 加拿大 156
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
-      - 🇺🇸 美国_0919062
-      - 🇺🇸 美国_0919125
-      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 107
+      - 🇨🇦 加拿大 105
+      - 🇨🇦 加拿大_0919018
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_84 |17.18Mb
+      - 🇨🇦 加拿大 168
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 12
+      - 🇨🇦 加拿大 166
       - 🇺🇸 美国_0919387
+      - 🇨🇦 加拿大 167
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国_0919062
+      - 🇨🇦 加拿大 190
+      - 🇺🇸 美国_0919125
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32
       - 🇺🇸 _US_美国_欢迎订阅yui科技_107
-      - 🇺🇸 12|🇺🇸 美国 270
-      - 频道50@wxgqlfx
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰_0919003
-      - 🇳🇱 荷兰 006
-      - "|45.24Mb"
-      - Relay_ | 7.97Mb
-      - "🇻🇳 越南\r"
-      - "🇻🇳 越南\r 2"
-      - 未知_0919021
-      - 频道07@wxgqlfx
-      - 🇪🇺 欧洲(油管破解资源君2.0) 23
-      - 🇨🇳 防失效github SubCrawler中国_0919063
-      - 254254.xyz👈购买地址 6
-      - 7,8|🇻🇳 Viet Nam 05 @nodpai
-      - "|15.97Mb"
-      - 7,8|🇻🇳 Viet Nam 09 @nodpai
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
-      - 白嫖-373
-      - 🇵🇭 菲律宾_0919001
-      - Viet Nam 05 @nodpai
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
       - 频道43@wxgqlfx
+      - 频道07@wxgqlfx
+      - 频道47@wxgqlfx
+      - 🇩🇪 德国_0919005
+      - 频道30@wxgqlfx
+      - "|15.84Mb"
+      - "🇻🇳 越南\r 2"
+      - "|15.97Mb"
+      - "🇻🇳 越南\r"
+      - 🇪🇺 欧洲(油管破解资源君2.0) 23
+      - 白嫖-373
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
+      - 🇪🇺 欧洲(油管破解资源君2.0) 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇳🇱 荷兰 006
+      - 🇵🇭 菲律宾_0919001
+      - 🇨🇳 防失效github SubCrawler中国_0919063
+      - 🇱🇺 卢森堡_0919001
       - 🇳🇱 荷兰_0919006
+      - 🇮🇩 印度尼西亚_0919003
+      - 🇨🇳 Taiwan 02 @nodpai 2
+      - 🇦🇺 澳大利亚_0919019
+      - 🇦🇺 澳大利亚_0919006
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,27 +254,30 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - "🇭🇰 香港\r"
-      - 🇸🇬 _SG_新加坡 3 2 2
-      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇸🇬 新加坡_0915020
       - "🇭🇰 香港\r 2"
-      - 🇸🇬 新加坡_0919009
-      - "🇨🇳 台湾\r"
+      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇭🇰 15|香港B|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0919036
       - 🇨🇳 台湾_0919001
-      - 🇭🇰 014+10—🇭🇰—HK
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
-      - 🇯🇵 日本 63
       - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - "🇨🇳 台湾\r"
       - SG_40 |35.53Mb
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 014+10—🇭🇰—HK
+      - 🇯🇵 日本_0916011
+      - 🇸🇬 新加坡_0919046
       - 🇸🇬 _SG_新加坡 9
-      - 🇰🇷 韩国_0919049
+      - 🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点机场
       - 🇨🇳 Taiwan 02 @nodpai
-      - 🇯🇵 日本_0919010
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇭🇰 香港 023
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
@@ -293,83 +298,84 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇺🇸 美国 099
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_103 |16.36Mb
       - 🇺🇸 美国_0919041
-      - 🇺🇸 美国_0919034
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇨🇦 12|🇨🇦 加拿大 105
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 美国_0919006
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_83 |21.35Mb
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_73
-      - 🇨🇦 加拿大 189
-      - 🇨🇦 加拿大 156
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
-      - 🇺🇸 美国_0919062
-      - 🇺🇸 美国_0919125
-      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 107
+      - 🇨🇦 加拿大 105
+      - 🇨🇦 加拿大_0919018
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_84 |17.18Mb
+      - 🇨🇦 加拿大 168
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 12
+      - 🇨🇦 加拿大 166
       - 🇺🇸 美国_0919387
+      - 🇨🇦 加拿大 167
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国_0919062
+      - 🇨🇦 加拿大 190
+      - 🇺🇸 美国_0919125
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32
       - 🇺🇸 _US_美国_欢迎订阅yui科技_107
-      - 🇺🇸 12|🇺🇸 美国 270
-      - 频道50@wxgqlfx
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰_0919003
-      - 🇳🇱 荷兰 006
-      - "|45.24Mb"
-      - Relay_ | 7.97Mb
-      - "🇻🇳 越南\r"
-      - "🇻🇳 越南\r 2"
-      - 未知_0919021
-      - 频道07@wxgqlfx
-      - 🇪🇺 欧洲(油管破解资源君2.0) 23
-      - 🇨🇳 防失效github SubCrawler中国_0919063
-      - 254254.xyz👈购买地址 6
-      - 7,8|🇻🇳 Viet Nam 05 @nodpai
-      - "|15.97Mb"
-      - 7,8|🇻🇳 Viet Nam 09 @nodpai
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
-      - 白嫖-373
-      - 🇵🇭 菲律宾_0919001
-      - Viet Nam 05 @nodpai
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
       - 频道43@wxgqlfx
+      - 频道07@wxgqlfx
+      - 频道47@wxgqlfx
+      - 🇩🇪 德国_0919005
+      - 频道30@wxgqlfx
+      - "|15.84Mb"
+      - "🇻🇳 越南\r 2"
+      - "|15.97Mb"
+      - "🇻🇳 越南\r"
+      - 🇪🇺 欧洲(油管破解资源君2.0) 23
+      - 白嫖-373
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
+      - 🇪🇺 欧洲(油管破解资源君2.0) 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇳🇱 荷兰 006
+      - 🇵🇭 菲律宾_0919001
+      - 🇨🇳 防失效github SubCrawler中国_0919063
+      - 🇱🇺 卢森堡_0919001
       - 🇳🇱 荷兰_0919006
+      - 🇮🇩 印度尼西亚_0919003
+      - 🇨🇳 Taiwan 02 @nodpai 2
+      - 🇦🇺 澳大利亚_0919019
+      - 🇦🇺 澳大利亚_0919006
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - "🇭🇰 香港\r"
-      - 🇸🇬 _SG_新加坡 3 2 2
-      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇸🇬 新加坡_0915020
       - "🇭🇰 香港\r 2"
-      - 🇸🇬 新加坡_0919009
-      - "🇨🇳 台湾\r"
+      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇭🇰 15|香港B|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0919036
       - 🇨🇳 台湾_0919001
-      - 🇭🇰 014+10—🇭🇰—HK
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
-      - 🇯🇵 日本 63
       - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - "🇨🇳 台湾\r"
       - SG_40 |35.53Mb
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 014+10—🇭🇰—HK
+      - 🇯🇵 日本_0916011
+      - 🇸🇬 新加坡_0919046
       - 🇸🇬 _SG_新加坡 9
-      - 🇰🇷 韩国_0919049
+      - 🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点机场
       - 🇨🇳 Taiwan 02 @nodpai
-      - 🇯🇵 日本_0919010
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇭🇰 香港 023
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
@@ -390,113 +396,114 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇺🇸 美国 099
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_103 |16.36Mb
       - 🇺🇸 美国_0919041
-      - 🇺🇸 美国_0919034
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇨🇦 12|🇨🇦 加拿大 105
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 美国_0919006
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_83 |21.35Mb
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_73
-      - 🇨🇦 加拿大 189
-      - 🇨🇦 加拿大 156
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
-      - 🇺🇸 美国_0919062
-      - 🇺🇸 美国_0919125
-      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 107
+      - 🇨🇦 加拿大 105
+      - 🇨🇦 加拿大_0919018
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_84 |17.18Mb
+      - 🇨🇦 加拿大 168
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 12
+      - 🇨🇦 加拿大 166
       - 🇺🇸 美国_0919387
+      - 🇨🇦 加拿大 167
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国_0919062
+      - 🇨🇦 加拿大 190
+      - 🇺🇸 美国_0919125
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32
       - 🇺🇸 _US_美国_欢迎订阅yui科技_107
-      - 🇺🇸 12|🇺🇸 美国 270
-      - 频道50@wxgqlfx
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰_0919003
-      - 🇳🇱 荷兰 006
-      - "|45.24Mb"
-      - Relay_ | 7.97Mb
-      - "🇻🇳 越南\r"
-      - "🇻🇳 越南\r 2"
-      - 未知_0919021
-      - 频道07@wxgqlfx
-      - 🇪🇺 欧洲(油管破解资源君2.0) 23
-      - 🇨🇳 防失效github SubCrawler中国_0919063
-      - 254254.xyz👈购买地址 6
-      - 7,8|🇻🇳 Viet Nam 05 @nodpai
-      - "|15.97Mb"
-      - 7,8|🇻🇳 Viet Nam 09 @nodpai
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
-      - 白嫖-373
-      - 🇵🇭 菲律宾_0919001
-      - Viet Nam 05 @nodpai
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
       - 频道43@wxgqlfx
+      - 频道07@wxgqlfx
+      - 频道47@wxgqlfx
+      - 🇩🇪 德国_0919005
+      - 频道30@wxgqlfx
+      - "|15.84Mb"
+      - "🇻🇳 越南\r 2"
+      - "|15.97Mb"
+      - "🇻🇳 越南\r"
+      - 🇪🇺 欧洲(油管破解资源君2.0) 23
+      - 白嫖-373
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
+      - 🇪🇺 欧洲(油管破解资源君2.0) 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇳🇱 荷兰 006
+      - 🇵🇭 菲律宾_0919001
+      - 🇨🇳 防失效github SubCrawler中国_0919063
+      - 🇱🇺 卢森堡_0919001
       - 🇳🇱 荷兰_0919006
+      - 🇮🇩 印度尼西亚_0919003
+      - 🇨🇳 Taiwan 02 @nodpai 2
+      - 🇦🇺 澳大利亚_0919019
+      - 🇦🇺 澳大利亚_0919006
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
-      - 🇺🇸 美国 099
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_103 |16.36Mb
       - 🇺🇸 美国_0919041
-      - 🇺🇸 美国_0919034
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇨🇦 12|🇨🇦 加拿大 105
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 美国_0919006
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_83 |21.35Mb
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_73
-      - 🇨🇦 加拿大 189
-      - 🇨🇦 加拿大 156
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
-      - 🇺🇸 美国_0919062
-      - 🇺🇸 美国_0919125
-      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 107
+      - 🇨🇦 加拿大 105
+      - 🇨🇦 加拿大_0919018
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_84 |17.18Mb
+      - 🇨🇦 加拿大 168
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 12
+      - 🇨🇦 加拿大 166
       - 🇺🇸 美国_0919387
+      - 🇨🇦 加拿大 167
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 美国_0919096
+      - 🇺🇸 美国_0919062
+      - 🇨🇦 加拿大 190
+      - 🇺🇸 美国_0919125
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32
       - 🇺🇸 _US_美国_欢迎订阅yui科技_107
-      - 🇺🇸 12|🇺🇸 美国 270
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - "🇭🇰 香港\r"
-      - 🇸🇬 _SG_新加坡 3 2 2
-      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇸🇬 新加坡_0915020
       - "🇭🇰 香港\r 2"
-      - 🇸🇬 新加坡_0919009
-      - "🇨🇳 台湾\r"
+      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇭🇰 15|香港B|@ripaojiedian
+      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0919036
       - 🇨🇳 台湾_0919001
-      - 🇭🇰 014+10—🇭🇰—HK
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
-      - 🇯🇵 日本 63
       - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - "🇨🇳 台湾\r"
       - SG_40 |35.53Mb
+      - 🇯🇵 _JP_日本_1
+      - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇭🇰 014+10—🇭🇰—HK
+      - 🇯🇵 日本_0916011
+      - 🇸🇬 新加坡_0919046
       - 🇸🇬 _SG_新加坡 9
-      - 🇰🇷 韩国_0919049
+      - 🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点机场
       - 🇨🇳 Taiwan 02 @nodpai
-      - 🇯🇵 日本_0919010
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇭🇰 香港 023
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
@@ -517,20 +524,19 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
+      - 🇨🇳 Taiwan 02 @nodpai 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
       - 🇨🇳 Taiwan 02 @nodpai
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
@@ -551,71 +557,67 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 频道50@wxgqlfx
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 101
-      - 🇳🇱 荷兰_0919003
-      - 🇳🇱 荷兰 006
-      - "|45.24Mb"
-      - Relay_ | 7.97Mb
-      - "🇻🇳 越南\r"
-      - "🇻🇳 越南\r 2"
-      - 未知_0919021
-      - 频道07@wxgqlfx
-      - 🇪🇺 欧洲(油管破解资源君2.0) 23
-      - 🇨🇳 防失效github SubCrawler中国_0919063
-      - 254254.xyz👈购买地址 6
-      - 7,8|🇻🇳 Viet Nam 05 @nodpai
-      - "|15.97Mb"
-      - 7,8|🇻🇳 Viet Nam 09 @nodpai
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
-      - 白嫖-373
-      - 🇵🇭 菲律宾_0919001
-      - Viet Nam 05 @nodpai
       - 频道43@wxgqlfx
+      - 频道07@wxgqlfx
+      - 频道47@wxgqlfx
+      - 🇩🇪 德国_0919005
+      - 频道30@wxgqlfx
+      - "|15.84Mb"
+      - "🇻🇳 越南\r 2"
+      - "|15.97Mb"
+      - "🇻🇳 越南\r"
+      - 🇪🇺 欧洲(油管破解资源君2.0) 23
+      - 白嫖-373
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 72
+      - 🇪🇺 欧洲(油管破解资源君2.0) 2
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 17
+      - 🇳🇱 荷兰 006
+      - 🇵🇭 菲律宾_0919001
+      - 🇨🇳 防失效github SubCrawler中国_0919063
+      - 🇱🇺 卢森堡_0919001
       - 🇳🇱 荷兰_0919006
+      - 🇮🇩 印度尼西亚_0919003
+      - 🇨🇳 Taiwan 02 @nodpai 2
+      - 🇦🇺 澳大利亚_0919019
+      - 🇦🇺 澳大利亚_0919006
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
-      - 🇺🇸 美国 099
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 8
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_103 |16.36Mb
       - 🇺🇸 美国_0919041
-      - 🇺🇸 美国_0919034
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - 🇺🇸 美国_0919006
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_83 |21.35Mb
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_73
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 14
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 16
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 107
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_84 |17.18Mb
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 12
+      - 🇺🇸 美国_0919387
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
+      - 🇺🇸 美国_0919096
       - 🇺🇸 美国_0919062
       - 🇺🇸 美国_0919125
-      - 🇺🇸 美国_0919096
-      - 🇺🇸 美国_0919387
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32
       - 🇺🇸 _US_美国_欢迎订阅yui科技_107
-      - 🇺🇸 12|🇺🇸 美国 270
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 18
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "🇭🇰 香港\r"
-      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
       - "🇭🇰 香港\r 2"
-      - 🇭🇰 014+10—🇭🇰—HK
+      - 🇭🇰 @LuxyNet💎❖🇭🇰❖HK❖380
+      - 🇭🇰 15|香港B|@ripaojiedian
       - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23
+      - 🇭🇰 014+10—🇭🇰—HK
+      - 🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点机场
+      - 🇭🇰 香港 023
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
@@ -623,33 +625,30 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 26 TG@SSRSUB
       - 🇭🇰 Hong Kong 01 TG@SSRSUB
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡 3 2 2
-      - 🇸🇬 新加坡_0919009
+      - 🇸🇬 新加坡_0915020
+      - 🇸🇬 14|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_0919036
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7
       - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡_0@23
       - SG_40 |35.53Mb
+      - 🇸🇬 新加坡_0919046
       - 🇸🇬 _SG_新加坡 9
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
-      - 🇸🇬 17|🇸🇬_SG_新加坡->🇺🇸_US_美国_7 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本 63
-      - 🇯🇵 日本_0919010
+      - 🇯🇵 14|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 _JP_日本_1
+      - 🇯🇵 日本_0916011
       - 🇯🇵 Relay 🇯🇵 Japan 01 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 10 TG@SSRSUB
   - name: 台湾
@@ -658,12 +657,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "🇨🇳 台湾\r"
       - 🇨🇳 台湾_0919001
+      - "🇨🇳 台湾\r"
       - 🇨🇳 Taiwan 02 @nodpai
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 02 TG@SSRSUB
@@ -673,6 +673,7 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
+      - 🇨🇳 Taiwan 02 @nodpai 2
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
@@ -680,7 +681,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 14|🇰🇷 韩国特殊|@ripaojiedian
-      - 🇰🇷 韩国_0919049
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
